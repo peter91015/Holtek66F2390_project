@@ -1,0 +1,439 @@
+
+Linker Version 8.7.7.220718
+Input Object File: d:\htk\mp3_test\STARTUP1_L.OBJ
+Input Object File: d:\htk\mp3_test\UTILS.OBJ
+Input Object File: d:\htk\mp3_test\MP3_TEST.OBJ
+Input Object File: d:\htk\mp3_test\LCD.OBJ
+
+Input Library File: C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB
+Input Library File: C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\v3_lmrmc.lib
+
+
+     Bank    Start     End      Length     Class    AvgIns    Name
+     00h     0000h     0001h    0002h      CODE               @code (d:\htk\mp3_test\MP3_TEST.OBJ)
+     00h     0002h     000fh    000eh      CODE               _builtin_holtek_delay_isr00 (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0014h     0017h    0004h      CODE               @ISR_STM0_code (d:\htk\mp3_test\MP3_TEST.OBJ)
+     00h     0018h     003ah    0023h      CODE               @start (d:\htk\mp3_test\MP3_TEST.OBJ)
+     00h     003ch     003fh    0004h      CODE               @UART0_code (d:\htk\mp3_test\MP3_TEST.OBJ)
+     00h     0040h     0099h    005ah      CODE               _ISR_STM0 (d:\htk\mp3_test\MP3_TEST.OBJ)
+     00h     00a0h     00cdh    002eh      CODE               _UART0 (d:\htk\mp3_test\MP3_TEST.OBJ)
+     00h     00ceh     0113h    0046h      CODE               @crom (d:\htk\mp3_test\MP3_TEST.OBJ)
+     00h     0114h     012ah    0017h      CODE               _delay_ms (d:\htk\mp3_test\UTILS.OBJ)
+     00h     012bh     0135h    000bh      CODE               _UART0_Getch (d:\htk\mp3_test\MP3_TEST.OBJ)
+     00h     0136h     013eh    0009h      CODE               _UART0_Putch (d:\htk\mp3_test\MP3_TEST.OBJ)
+     00h     013fh     014eh    0010h      CODE               _CROM2PROM (CROM2PROM)
+     00h     014fh     019fh    0051h      CODE               _execute_CMD (d:\htk\mp3_test\MP3_TEST.OBJ)
+     00h     01a0h     01aah    000bh      CODE               _play (d:\htk\mp3_test\MP3_TEST.OBJ)
+     00h     01abh     01b6h    000ch      CODE               _setVolume (d:\htk\mp3_test\MP3_TEST.OBJ)
+     00h     01b7h     01c0h    000ah      CODE               _playFirst (d:\htk\mp3_test\MP3_TEST.OBJ)
+     00h     01c1h     01cdh    000dh      CODE               _LCD_Senddata (d:\htk\mp3_test\LCD.OBJ)
+     00h     01ceh     01dch    000fh      CODE               _LCD_Print_Str (d:\htk\mp3_test\LCD.OBJ)
+     00h     01ddh     01e9h    000dh      CODE               _LCD_Cmd (d:\htk\mp3_test\LCD.OBJ)
+     00h     01eah     01f4h    000bh      CODE               _LCD_Reset (d:\htk\mp3_test\LCD.OBJ)
+     00h     01f5h     029ah    00a6h      CODE               _main (d:\htk\mp3_test\MP3_TEST.OBJ)
+     00h     029bh     0345h    00abh      CODE               _getkey4 (d:\htk\mp3_test\UTILS.OBJ)
+     00h     0346h     0375h    0030h      CODE               @ROMDATA_BASE (d:\htk\mp3_test\STARTUP1_L.OBJ)
+     00h     0080h     0080h    0001h      DATA     0         @BITDATASEC1 (d:\htk\mp3_test\STARTUP1_L.OBJ)
+     00h     0081h     0081h    0001h      DATA     0         @BITDATASEC (d:\htk\mp3_test\STARTUP1_L.OBJ)
+     00h     0082h     0082h    0001h      DATA     51        @data_ra (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0083h     0083h    0001h      DATA     34        @data_rb (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0084h     0084h    0001h      DATA     30        @data_rc (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0085h     0085h    0001h      DATA     10        @data_rd (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0086h     0086h    0001h      DATA     10        @data_re (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0087h     0087h    0001h      DATA     28        @data_ra14 (isr:ra~rh)
+     00h     0088h     0088h    0001h      DATA     27        @data_rb14 (isr:ra~rh)
+     00h     0089h     0089h    0001h      DATA     24        @data_rc14 (isr:ra~rh)
+     00h     008ah     008ah    0001h      DATA     2         @data_r114 (isr:ra~rh)
+     00h     008bh     008bh    0001h      DATA     2         @data_r214 (isr:ra~rh)
+     00h     008ch     008ch    0001h      DATA     2         @data_r13c (isr:ra~rh)
+     00h     008dh     008dh    0001h      DATA     2         @data_r23c (isr:ra~rh)
+     00h     008eh     008eh    0001h      DATA     3         @data_ra3c (isr:ra~rh)
+     00h     009ah     009bh    0002h      DATA     7         @HCCINIT_hold_times_4 (d:\htk\mp3_test\UTILS.OBJ)
+     00h     009ch     009dh    0002h      DATA     7         @HCCINIT_hold_4 (d:\htk\mp3_test\UTILS.OBJ)
+     00h     009eh     009fh    0002h      DATA     7         @HCCINIT_hold_times (d:\htk\mp3_test\UTILS.OBJ)
+     00h     00a0h     00a1h    0002h      DATA     6         @HCCINIT_i (d:\htk\mp3_test\MP3_TEST.OBJ)
+     00h     00a2h     00a2h    0001h      DATA     5         @HCCINIT_hold_3 (d:\htk\mp3_test\UTILS.OBJ)
+     00h     00a3h     00a4h    0002h      DATA     4         @HCCINIT_key_hold4 (d:\htk\mp3_test\UTILS.OBJ)
+     00h     00a5h     00a5h    0001h      DATA     4         @HCCINIT_bt_ind (d:\htk\mp3_test\MP3_TEST.OBJ)
+     00h     00a6h     00a7h    0002h      DATA     3         @HCCINIT___release_count_3023 (d:\htk\mp3_test\UTILS.OBJ)
+     00h     00a8h     00a8h    0001h      DATA     3         @HCCINIT_hold (d:\htk\mp3_test\UTILS.OBJ)
+     00h     00a9h     00a9h    0001h      DATA     3         @HCCINIT_key_hold2 (d:\htk\mp3_test\UTILS.OBJ)
+     00h     00aah     00aah    0001h      DATA     3         @HCCINIT_test (d:\htk\mp3_test\UTILS.OBJ)
+     00h     00abh     00ach    0002h      DATA     3         @HCCINIT_T1s_cnt (d:\htk\mp3_test\MP3_TEST.OBJ)
+     00h     00adh     00adh    0001h      DATA     3         @HCCINIT_T20ms_cnt (d:\htk\mp3_test\MP3_TEST.OBJ)
+     00h     00aeh     00aeh    0001h      DATA     3         @HCCINIT_T250ms_cnt (d:\htk\mp3_test\MP3_TEST.OBJ)
+     00h     00afh     00afh    0001h      DATA     3         @HCCINIT_T100ms_cnt (d:\htk\mp3_test\MP3_TEST.OBJ)
+     00h     00b0h     00b0h    0001h      DATA     3         @HCCINIT_T500ms_cnt (d:\htk\mp3_test\MP3_TEST.OBJ)
+     00h     00b1h     00b1h    0001h      DATA     3         @HCCINIT_RxDataLN (d:\htk\mp3_test\MP3_TEST.OBJ)
+     00h     00b2h     00b2h    0001h      DATA     2         @HCCINIT_key_hold (d:\htk\mp3_test\UTILS.OBJ)
+     00h     00b3h     00b3h    0001h      DATA     1         @HCCINIT_key (d:\htk\mp3_test\MP3_TEST.OBJ)
+     00h     00b4h     00bdh    000ah      DATA     1         @HCCINIT_Command_line (d:\htk\mp3_test\MP3_TEST.OBJ)
+     00h     00beh     00bfh    0002h      DATA     1         @HCCINIT_Table3 (d:\htk\mp3_test\MP3_TEST.OBJ)
+     00h     00c0h     00c9h    000ah      DATA     0.2       @HCCINIT_bt_data (d:\htk\mp3_test\MP3_TEST.OBJ)
+     00h     00cah     00cbh    0002h      DATA     0         @HCCINIT_digit (d:\htk\mp3_test\MP3_TEST.OBJ)
+     00h     00cch     00ebh    0020h      DATA     0         @HCCINIT_RxData (d:\htk\mp3_test\MP3_TEST.OBJ)
+     00h     00ech     00edh    0002h      DATA     0         @HCCINIT_Table13 (d:\htk\mp3_test\MP3_TEST.OBJ)
+     00h     00eeh     00efh    0002h      DATA     0         @HCCINIT_Table12 (d:\htk\mp3_test\MP3_TEST.OBJ)
+     00h     00f0h     00f1h    0002h      DATA     0         @HCCINIT_Table11 (d:\htk\mp3_test\MP3_TEST.OBJ)
+     00h     00f2h     00f3h    0002h      DATA     0         @HCCINIT_Table10 (d:\htk\mp3_test\MP3_TEST.OBJ)
+     00h     00f4h     00f4h    0001h      DATA     2         @data_r314 (isr:ra~rh)
+     00h     00f5h     00f5h    0001h      DATA     2         @data_r414 (isr:ra~rh)
+     00h     00f6h     00f6h    0001h      DATA     2         @data_r514 (isr:ra~rh)
+     00h     00f7h     00f7h    0001h      DATA     2         @data_r614 (isr:ra~rh)
+     00h     00f8h     00f8h    0001h      DATA     2         @data_r714 (isr:ra~rh)
+     00h     00f9h     00f9h    0001h      DATA     2         @data_r33c (isr:ra~rh)
+     00h     00fah     00fah    0001h      DATA     2         @data_r43c (isr:ra~rh)
+     00h     00fbh     00fbh    0001h      DATA     2         @data_r53c (isr:ra~rh)
+
+     Local Sections
+
+     Bank    Start     End      Length     Class    AvgIns    Name
+     00h     0091h     0091h    0000h      LOCAL    0         @dummy20 (d:\htk\mp3_test\MP3_TEST.OBJ)
+     00h     0091h     0091h    0000h      LOCAL    0         _ISR_STM0 (d:\htk\mp3_test\MP3_TEST.OBJ)
+     00h     008fh     0090h    0002h      LOCAL    4.5       _getkey4 (d:\htk\mp3_test\UTILS.OBJ)
+     00h     008fh     008fh    0000h      LOCAL    0         @dummy60 (d:\htk\mp3_test\MP3_TEST.OBJ)
+     00h     008fh     008fh    0000h      LOCAL    0         _UART0 (d:\htk\mp3_test\MP3_TEST.OBJ)
+     00h     009ah     009ah    0000h      LOCAL    0         @dummy (d:\htk\mp3_test\MP3_TEST.OBJ)
+     00h     009ah     009ah    0000h      LOCAL    0         _main (d:\htk\mp3_test\MP3_TEST.OBJ)
+     00h     0095h     0095h    0000h      LOCAL    0         _LCD_Reset (d:\htk\mp3_test\LCD.OBJ)
+     00h     0094h     0094h    0001h      LOCAL    1         _LCD_Cmd (d:\htk\mp3_test\LCD.OBJ)
+     00h     0092h     0093h    0002h      LOCAL    21        _delay_ms (d:\htk\mp3_test\UTILS.OBJ)
+     00h     0091h     0091h    0001h      LOCAL    2         _builtin_holtek_delay_isr00 (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0091h     0091h    0000h      LOCAL    0         _Crom2Prom (CROM2PROM)
+     00h     0094h     0094h    0001h      LOCAL    1         _LCD_Senddata (d:\htk\mp3_test\LCD.OBJ)
+     00h     0095h     0096h    0002h      LOCAL    3         _LCD_Print_Str (d:\htk\mp3_test\LCD.OBJ)
+     00h     0092h     0097h    0006h      LOCAL    6         _execute_CMD (d:\htk\mp3_test\MP3_TEST.OBJ)
+     00h     0091h     0091h    0001h      LOCAL    1         _UART0_Putch (d:\htk\mp3_test\MP3_TEST.OBJ)
+     00h     0091h     0091h    0000h      LOCAL    0         _UART0_Getch (d:\htk\mp3_test\MP3_TEST.OBJ)
+     00h     009ah     009ah    0000h      LOCAL    0         _playFirst (d:\htk\mp3_test\MP3_TEST.OBJ)
+     00h     0098h     0099h    0002h      LOCAL    1.5       _setVolume (d:\htk\mp3_test\MP3_TEST.OBJ)
+     00h     0098h     0098h    0000h      LOCAL    0         _play (d:\htk\mp3_test\MP3_TEST.OBJ)
+
+     Public Symbols Information
+     Address            Public by Name
+     00b4h              _Command_line
+     0140h              _Crom2Prom
+     013fh              _Crom2PromNext
+     0040h              _ISR_STM0
+     01ddh              _LCD_Cmd
+     01ceh              _LCD_Print_Str
+     01eah              _LCD_Reset
+     01c1h              _LCD_Senddata
+     0080h[0]           _P
+     00ceh              _RESET
+     00cch              _RxData
+     00b1h              _RxDataLN
+     00afh              _T100ms_cnt
+     0081h[2]           _T100ms_flag
+     00abh              _T1s_cnt
+     0081h[1]           _T1s_flag
+     00adh              _T20ms_cnt
+     00aeh              _T250ms_cnt
+     0081h[4]           _T250ms_flag
+     00b0h              _T500ms_cnt
+     0081h[3]           _T500ms_flag
+     010bh              _Table1
+     00f2h              _Table10
+     00f0h              _Table11
+     00eeh              _Table12
+     00ech              _Table13
+     0103h              _Table2
+     00beh              _Table3
+     00a0h              _UART0
+     012bh              _UART0_Getch
+     0136h              _UART0_Putch
+     0007h              __DELAYY0_isr00
+     0006h              __DELAYY1_isr00
+     0005h              __DELAYY2_isr00
+     0004h              __DELAYY3_isr00
+     0003h              __DELAYY4_isr00
+     0002h              __DELAYY5_isr00
+     00c0h              _bt_data
+     00a5h              _bt_ind
+     0114h              _delay_ms
+     0092h              _delay_ms_2
+     00cah              _digit
+     014fh              _execute_CMD
+     0094h              _execute_CMD_2
+     0081h[5]           _fgRx
+     0081h[0]           _flash
+     029bh              _getkey4
+     008fh              _getkey4_2
+     00a8h              _hold
+     00a2h              _hold_3
+     009ch              _hold_4
+     009eh              _hold_times
+     009ah              _hold_times_4
+     00a0h              _i
+     00b3h              _key
+     00b2h              _key_hold
+     00a9h              _key_hold2
+     00a3h              _key_hold4
+     01f5h              _main
+     00f5h              _num
+     01a0h              _play
+     01b7h              _playFirst
+     01abh              _setVolume
+     0098h              _setVolume_2
+     008ah              r114
+     008ch              r13c
+     008bh              r214
+     008dh              r23c
+     00f4h              r314
+     00f9h              r33c
+     00f5h              r414
+     00fah              r43c
+     00f6h              r514
+     00fbh              r53c
+     00f7h              r614
+     00f8h              r714
+     0082h              ra
+     0087h              ra14
+     008eh              ra3c
+     0083h              rb
+     0088h              rb14
+     0084h              rc
+     0089h              rc14
+     0085h              rd
+     0086h              re
+     0346h              startup_value_1
+
+     Address            Public by Value
+     0002h              __DELAYY5_isr00
+     0003h              __DELAYY4_isr00
+     0004h              __DELAYY3_isr00
+     0005h              __DELAYY2_isr00
+     0006h              __DELAYY1_isr00
+     0007h              __DELAYY0_isr00
+     0040h              _ISR_STM0
+     0082h              ra
+     0083h              rb
+     0084h              rc
+     0085h              rd
+     0086h              re
+     0087h              ra14
+     0088h              rb14
+     0089h              rc14
+     008ah              r114
+     008bh              r214
+     008ch              r13c
+     008dh              r23c
+     008eh              ra3c
+     008fh              _getkey4_2
+     0092h              _delay_ms_2
+     0094h              _execute_CMD_2
+     0098h              _setVolume_2
+     009ah              _hold_times_4
+     009ch              _hold_4
+     009eh              _hold_times
+     00a0h              _UART0
+     00a0h              _i
+     00a2h              _hold_3
+     00a3h              _key_hold4
+     00a5h              _bt_ind
+     00a8h              _hold
+     00a9h              _key_hold2
+     00abh              _T1s_cnt
+     00adh              _T20ms_cnt
+     00aeh              _T250ms_cnt
+     00afh              _T100ms_cnt
+     00b0h              _T500ms_cnt
+     00b1h              _RxDataLN
+     00b2h              _key_hold
+     00b3h              _key
+     00b4h              _Command_line
+     00beh              _Table3
+     00c0h              _bt_data
+     00cah              _digit
+     00cch              _RxData
+     00ceh              _RESET
+     00ech              _Table13
+     00eeh              _Table12
+     00f0h              _Table11
+     00f2h              _Table10
+     00f4h              r314
+     00f5h              r414
+     00f5h              _num
+     00f6h              r514
+     00f7h              r614
+     00f8h              r714
+     00f9h              r33c
+     00fah              r43c
+     00fbh              r53c
+     0103h              _Table2
+     010bh              _Table1
+     0114h              _delay_ms
+     012bh              _UART0_Getch
+     0136h              _UART0_Putch
+     013fh              _Crom2PromNext
+     0140h              _Crom2Prom
+     014fh              _execute_CMD
+     01a0h              _play
+     01abh              _setVolume
+     01b7h              _playFirst
+     01c1h              _LCD_Senddata
+     01ceh              _LCD_Print_Str
+     01ddh              _LCD_Cmd
+     01eah              _LCD_Reset
+     01f5h              _main
+     029bh              _getkey4
+     0346h              startup_value_1
+     0080h[0]           _P
+     0081h[0]           _flash
+     0081h[1]           _T1s_flag
+     0081h[2]           _T100ms_flag
+     0081h[3]           _T500ms_flag
+     0081h[4]           _T250ms_flag
+     0081h[5]           _fgRx
+
+
+ROM Usage Statistics
+    Bank      Size      Used     Percentage
+     00h       2000h     036bh    10%
+     01h       2000h     0000h    0%
+     02h       2000h     0000h    0%
+     03h       2000h     0000h    0%
+     04h       2000h     0000h    0%
+     05h       2000h     0000h    0%
+     06h       2000h     0000h    0%
+     07h       2000h     0000h    0%
+     Total     10000h     036bh    1%
+
+RAM Usage Statistics
+    Bank      Size      Used     Percentage
+     00h       0080h     007ch    96%
+     01h       0080h     0000h    0%
+     02h       0080h     0000h    0%
+     03h       0080h     0000h    0%
+     04h       0080h     0000h    0%
+     05h       0080h     0000h    0%
+     06h       0080h     0000h    0%
+     07h       0080h     0000h    0%
+     08h       0080h     0000h    0%
+     09h       0080h     0000h    0%
+     0ah       0080h     0000h    0%
+     0bh       0080h     0000h    0%
+     0ch       0080h     0000h    0%
+     0dh       0080h     0000h    0%
+     0eh       0080h     0000h    0%
+     0fh       0080h     0000h    0%
+     10h       0080h     0000h    0%
+     11h       0080h     0000h    0%
+     12h       0080h     0000h    0%
+     13h       0080h     0000h    0%
+     14h       0080h     0000h    0%
+     15h       0080h     0000h    0%
+     16h       0080h     0000h    0%
+     17h       0080h     0000h    0%
+     18h       0080h     0000h    0%
+     19h       0080h     0000h    0%
+     1ah       0080h     0000h    0%
+     1bh       0080h     0000h    0%
+     1ch       0080h     0000h    0%
+     1dh       0080h     0000h    0%
+     1eh       0080h     0000h    0%
+     1fh       0080h     0000h    0%
+     Total     1000h     007ch    3%
+
+Use Stack Count
+_ISR_STM0: 1
+_UART0: 0
+_pause: 2
+_playNext: 2
+_playPrevious: 2
+_voiceup: 2
+_voicedown: 2
+_main: 4
+_send_command: 2
+
+Call Tree
+    @dummy20
+        _ISR_STM0 (0)
+            _getkey4 (1)
+    @dummy60
+        _UART0 (0)
+    _pause
+        _execute_CMD (0)
+            _Crom2Prom (1)
+            _UART0_Putch (1)
+            _UART0_Getch (1)
+        _delay_ms (0)
+            _builtin_holtek_delay_isr00 (1)
+    _playNext
+        _execute_CMD (0)
+            _Crom2Prom (1)
+            _UART0_Putch (1)
+            _UART0_Getch (1)
+        _delay_ms (0)
+            _builtin_holtek_delay_isr00 (1)
+    _playPrevious
+        _execute_CMD (0)
+            _Crom2Prom (1)
+            _UART0_Putch (1)
+            _UART0_Getch (1)
+        _delay_ms (0)
+            _builtin_holtek_delay_isr00 (1)
+    _voiceup
+        _execute_CMD (0)
+            _Crom2Prom (1)
+            _UART0_Putch (1)
+            _UART0_Getch (1)
+        _delay_ms (0)
+            _builtin_holtek_delay_isr00 (1)
+    _voicedown
+        _execute_CMD (0)
+            _Crom2Prom (1)
+            _UART0_Putch (1)
+            _UART0_Getch (1)
+        _delay_ms (0)
+            _builtin_holtek_delay_isr00 (1)
+    @dummy
+        _main (0)
+            _LCD_Reset (1)
+                _LCD_Cmd (2)
+                    _delay_ms (3)
+                        _builtin_holtek_delay_isr00 (4)
+            _delay_ms (1)
+                _builtin_holtek_delay_isr00 (2)
+            _LCD_Cmd (1)
+                _delay_ms (2)
+                    _builtin_holtek_delay_isr00 (3)
+            _Crom2Prom (1)
+            _LCD_Senddata (1)
+                _delay_ms (2)
+                    _builtin_holtek_delay_isr00 (3)
+            _LCD_Print_Str (1)
+                _LCD_Senddata (2)
+                    _delay_ms (3)
+                        _builtin_holtek_delay_isr00 (4)
+                _Crom2Prom (2)
+            _execute_CMD (1)
+                _Crom2Prom (2)
+                _UART0_Putch (2)
+                _UART0_Getch (2)
+            _playFirst (1)
+                _setVolume (2)
+                    _execute_CMD (3)
+                        _Crom2Prom (4)
+                        _UART0_Putch (4)
+                        _UART0_Getch (4)
+                    _delay_ms (3)
+                        _builtin_holtek_delay_isr00 (4)
+                _delay_ms (2)
+                    _builtin_holtek_delay_isr00 (3)
+            _play (1)
+                _execute_CMD (2)
+                    _Crom2Prom (3)
+                    _UART0_Putch (3)
+                    _UART0_Getch (3)
+                _delay_ms (2)
+                    _builtin_holtek_delay_isr00 (3)
+    _send_command
+        _strlen (0)
+            _Crom2Prom (1)
+        _Crom2Prom (0)
+        _UART1_Putch (0)
+
+HLINK: Program entry point at section '@code' (address 0) of file 'd:\htk\mp3_test\MP3_TEST.OBJ'
+
+Total 0 error(s), Total 0 Warning(s)
